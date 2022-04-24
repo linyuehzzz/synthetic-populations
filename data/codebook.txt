@@ -1,0 +1,86 @@
+HT: Housing type
+	1. Household
+	2. Correctional facilities for adults
+	3. Juvenile facilities
+	4. Nursing facilities/Skilled-nursing facilities
+	5. Other institutional facilities
+	6. College/University student housing
+	7. Military quarters
+	8. Other noninstitutional facilities
+
+VA: Voting age
+	1. Aged below 18
+	2. Aged 18 and above
+
+E: Ethnicity
+	1. Non-Hispanic
+	2. Hispanic
+
+R: Race
+        1. Population of one race: White alone
+        2. Population of one race: Black or African American alone
+        3. Population of one race: American Indian and Alaska Native alone
+        4. Population of one race: Asian alone
+        5. Population of one race: Native Hawaiian and Other Pacific Islander alone
+        6. Population of one race: Some Other Race alone
+        7. Two or More Races: Population of two races: White; Black or African American
+        8. Two or More Races: Population of two races: White; American Indian and Alaska Native
+        9. Two or More Races: Population of two races: White; Asian
+        10. Two or More Races: Population of two races: White; Native Hawaiian and Other Pacific Islander
+        11. Two or More Races: Population of two races: White; Some Other Race
+        12. Two or More Races: Population of two races: Black or African American; American Indian and Alaska Native
+        13. Two or More Races: Population of two races: Black or African American; Asian
+        14. Two or More Races: Population of two races: Black or African American; Native Hawaiian and Other Pacific Islander
+        15. Two or More Races: Population of two races: Black or African American; Some Other Race
+        16. Two or More Races: Population of two races: American Indian and Alaska Native; Asian
+        17. Two or More Races: Population of two races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander
+        18. Two or More Races: Population of two races: American Indian and Alaska Native; Some Other Race
+        19. Two or More Races: Population of two races: Asian; Native Hawaiian and Other Pacific Islander
+        20. Two or More Races: Population of two races: Asian; Some Other Race
+        21. Two or More Races: Population of two races: Native Hawaiian and Other Pacific Islander; Some Other Race
+        22. Two or More Races: Population of three races: White; Black or African American; American Indian and Alaska Native
+        23. Two or More Races: Population of three races: White; Black or African American; Asian
+        24. Two or More Races: Population of three races: White; Black or African American; Native Hawaiian and Other Pacific Islander
+        25. Two or More Races: Population of three races: White; Black or African American; Some Other Race
+        26. Two or More Races: Population of three races: White; American Indian and Alaska Native; Asian
+        27. Two or More Races: Population of three races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander
+        28. Two or More Races: Population of three races: White; American Indian and Alaska Native; Some Other Race
+        29. Two or More Races: Population of three races: White; Asian; Native Hawaiian and Other Pacific Islander
+        30. Two or More Races: Population of three races: White; Asian; Some Other Race
+        31. Two or More Races: Population of three races: White; Native Hawaiian and Other Pacific Islander; Some Other Race
+        32. Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Asian
+        33. Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander
+        34. Two or More Races: Population of three races: Black or African American; American Indian and Alaska Native; Some Other Race
+        35. Two or More Races: Population of three races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander
+        36. Two or More Races: Population of three races: Black or African American; Asian; Some Other Race
+        37. Two or More Races: Population of three races: Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race
+        38. Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander
+        39. Two or More Races: Population of three races: American Indian and Alaska Native; Asian; Some Other Race
+        40. Two or More Races: Population of three races: American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race
+        41. Two or More Races: Population of three races: Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+        42. Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Asian
+        43. Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander
+        44. Two or More Races: Population of four races: White; Black or African American; American Indian and Alaska Native; Some Other Race
+        45. Two or More Races: Population of four races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander
+        46. Two or More Races: Population of four races: White; Black or African American; Asian; Some Other Race
+        47. Two or More Races: Population of four races: White; Black or African American; Native Hawaiian and Other Pacific Islander; Some Other Race
+        48. Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander
+        49. Two or More Races: Population of four races: White; American Indian and Alaska Native; Asian; Some Other Race
+        50. Two or More Races: Population of four races: White; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race
+        51. Two or More Races: Population of four races: White; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+        52. Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander
+        53. Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Asian; Some Other Race
+        54. Two or More Races: Population of four races: Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race
+        55. Two or More Races: Population of four races: Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+        56. Two or More Races: Population of four races: American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+        57. Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander
+        58. Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Asian; Some Other Race
+        59. Two or More Races: Population of five races: White; Black or African American; American Indian and Alaska Native; Native Hawaiian and Other Pacific Islander; Some Other Race
+        60. Two or More Races: Population of five races: White; Black or African American; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+        61. Two or More Races: Population of five races: White; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+        62. Two or More Races: Population of five races: Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+        63. Two or More Races: Population of six races: White; Black or African American; American Indian and Alaska Native; Asian; Native Hawaiian and Other Pacific Islander; Some Other Race
+
+S: Sex
+	1. Male
+	2. Female
