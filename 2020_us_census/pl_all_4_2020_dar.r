@@ -485,3 +485,4 @@ combine <- combine[order(combine$LOGRECNO), c("FILEID", "STUSAB", "SUMLEV", "GEO
                                               "LSADC", "PARTFLAG", "UGA", paste0("P00", c(10001:10071, 20001:20073)), paste0("P00", c(30001:30071, 40001:40073)), 
                                               paste0("H00", 10001:10003), paste0("P00", 50001:50010))]
 rownames(combine) <- 1:nrow(combine)
+# write.csv(combine,"oh_all_2020.csv", row.names = FALSE)

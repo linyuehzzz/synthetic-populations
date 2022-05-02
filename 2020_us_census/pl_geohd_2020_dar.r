@@ -2,7 +2,7 @@
 # -----------------------------
 # Specify path to header file
 # -----------------------------
-header_file_path <- "the location of the files on your computer\msgeo2020.pl"
+header_file_path <- "ohgeo2020.pl"
 
 # -----------------------------
 # Import the data
