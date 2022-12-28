@@ -10,7 +10,7 @@ For the purpose of demonstration, we here show the use of tables from the [2010 
 ## Details
 This repository includes:
 - [`data.py`]: Convert published census tables to a matrix
-- [`model.py`]: Optimization with [Gurobi]
+- [`model.py`]: Optimization with [Gurobi Optimizer]
 - [`val.py`]: Internal and external validations
 - [`case.py`]: Case studies
 
