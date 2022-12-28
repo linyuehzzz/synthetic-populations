@@ -13,7 +13,7 @@ This repository includes:
 - [`model.py`]: The optimization problem solved by [Gurobi]
 - [`val.py`]: Internal and external validations
 - [`case.py`]: Case studies
-- 
+
 ## Getting Started
 1. We use [Gurobi Optimizer] as our optimization solver in this implementation. Gurobi provides free, unlimited-use acedemic license at <https://www.gurobi.com/features/academic-named-user-license/>. Please follow the instructions to install the Gurobi Optimizer license on your device.
 2. Clone repo and install [`requirements.txt`] in a Python>=3.8.0 environment.
