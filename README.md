@@ -23,9 +23,6 @@ cd synthetic-populations
 pip install -r requirements.txt
 ```
 
-
-**Free Software, Hell Yeah!**
-
 [//]: # 
    [Gurobi Optimizer]: <https://www.gurobi.com/>
    [2010 United States Census Summary File 1 (SF1)]: <https://www.census.gov/data/datasets/2010/dec/summary-file-1.html>
