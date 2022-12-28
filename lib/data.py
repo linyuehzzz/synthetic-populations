@@ -163,6 +163,7 @@ def convert_mtx_to_microdata(filename_mtx, filename_microdata):
                     for i in range(cnt): 
                         fw.write(county_id + ',' + tract_id + ',' + bg_id + ',' + block_id + ',' + str(ht) + ',' + str(va) + ',' + str(e) + ',' + str(r) + ',' + str(s) + '\n')
 
+
 def prepare_pums_franklin(filename_pums_all, filename_pums):
     # filename_pums = 'data/psam_p39.csv'
     data_pums = pd.read_csv(filename_pums_all)
