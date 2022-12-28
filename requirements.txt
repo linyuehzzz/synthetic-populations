@@ -1,0 +1,8 @@
+geopandas
+gurobipy
+matplotlib
+numpy
+pandas
+torch
+mapclassify
+csv
