@@ -2,23 +2,60 @@
 
 This is an implementation of our small area synthetic microdata (SASM) generator on Python3. We formulate an optimization problem to generate SASM by minimizing the difference between published census tables and the SASM. This method only requires a set of census tables that are publicly available in most countries as input to provide effective results.
 
-For the purpose of demonstration, we here show the use of 11 tables from the [2010 United States Census Summary File 1 (SF1)] to generate the SASM for two counties in Ohio, USA. These tables include:
-| Table No. | Description |
-| ------ | ------ |
-| P5 | Population counts broken down by ethnicity by race |
-| P8 | Population counts broken down by race |
-| P89 | Population counts broken down by race for non-Hispanics |
-| P43 | Population counts broken down by sex by age by group quarter types |
-| P12A | Population counts broken down by sex by age for Whites |
-| P12B | Population counts broken down by sex by age for Black or African Americans |
-| P12C | Population counts broken down by sex by age for American Indian or Alaska Natives |
-| P12D | Population counts broken down by sex by age for Asians |
-| P12E | Population counts broken down by sex by age for Native Hawaiian or other Pacific Islanders |
-| P12F | Population counts broken down by sex by age for individuals with some other race alone |
-| P12G | Population counts broken down by sex by age for individuals with two or more races |
+For the purpose of demonstration, we here show the use of tables from the [2010 United States Census Summary File 1 (SF1)] to generate the SASM for Franklin and Guernsey Counties, Ohio, USA. The SASM include 1,163,414 individuals in 22,826 census blocks of Franklin County, and 40,087 individuals in 3,768 census blocks of Guernsey County. Each individual in the SASM has five attributes: housing type, voting age, ethnicity, race, and sex. The SASM and metadata can be found at:
+- [Franklin]
+- [Guernsey]
+- [Codebook]
 
+## Details
 This repository includes:
-- [data.py]: Converting published census tables to a matrix representation
-- [model.py]: The optimization problem solved by [Gurobi]
-- [val.py]: Internal and external validations using the original census tables and the 5-Year ACS PUMS
-- [case.py]: Case studies
+- [`data.py`]: Convert published census tables to a matrix representation
+- [`model.py`]: The optimization problem solved by [Gurobi]
+- [`val.py`]: Internal and external validations
+- [`case.py`]: Case studies
+- 
+## Getting Started
+1. We use [Gurobi Optimizer] as our optimization solver in this implementation. Gurobi provides free, unlimited-use acedemic license at <https://www.gurobi.com/features/academic-named-user-license/>. Please follow the instructions to install the Gurobi Optimizer license on your device.
+2. Clone repo and install [`requirements.txt`] in a Python>=3.8.0 environment.
+```
+git clone https://github.com/linyuehzzz/synthetic-populations.git
+cd synthetic-populations
+pip install -r requirements.txt
+```
+
+
+**Free Software, Hell Yeah!**
+
+[//]: # 
+   [Gurobi Optimizer]: <https://www.gurobi.com/>
+   [2010 United States Census Summary File 1 (SF1)]: <https://www.census.gov/data/datasets/2010/dec/summary-file-1.html>
+   
+   [`data.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/data.py>
+   [`model.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/model.py>
+   [`val.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/val.py>
+   [`case.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/case.py>
+   [`requirements.txt`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/requirements.txt>
+   [Franklin]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/data/franklin_microdata.csv>
+   [Guernsey]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/data/guernsey_microdata.csv>
+   [Codebook]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/data/codebook.txt>
+   
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
