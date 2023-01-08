@@ -28,6 +28,16 @@ python franklin.py
 python guernsey.py
 ```
 
+## Citation
+```
+@article{lin2022developing,
+  title={Developing synthetic individual-level population datasets: The case of contextualizing maps of privacy-preserving census data},
+  author={Lin, Yue and Xiao, Ningchuan},
+  journal={arXiv preprint arXiv:2206.04766},
+  year={2022}
+}
+```
+
 [//]: # 
    [Gurobi Optimizer]: <https://www.gurobi.com/>
    [2010 United States Census Summary File 1 (SF1)]: <https://www.census.gov/data/datasets/2010/dec/summary-file-1.html>
