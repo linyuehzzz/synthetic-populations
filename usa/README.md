@@ -1,6 +1,6 @@
-# Generating Small Area Synthetic Microdata for Public Use: Towards Accessible and Reproducible Spatial Data Science
+# Synthetic Population Data for Small Area Estimation in the United States
 
-This is an implementation of our small area synthetic microdata (SASM) generator on Python3. We formulate an optimization problem to generate SASM by minimizing the difference between published census tables and the SASM. This method only requires a set of census tables that are publicly available in most countries as input to provide effective results.
+This repository contains the reproducible code of a synthetic data generator for the United States. 
 
 For the purpose of demonstration, we here show the use of tables from the [2010 United States Census Summary File 1 (SF1)] to generate the SASM for Franklin and Guernsey Counties, Ohio, USA. The SASM include 1,163,414 individuals in 22,826 census blocks of Franklin County, and 40,087 individuals in 3,768 census blocks of Guernsey County. Each individual in the SASM has five attributes: housing type, voting age, ethnicity, race, and sex. The SASM and metadata can be found at:
 - [Franklin]
