@@ -43,7 +43,9 @@ pip install -r requirements.txt
    [Gurobi Optimizer]: <https://www.gurobi.com/>
    [`data.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/data.ipynb>
    [`validation.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/validation.ipynb>
+   [`demo.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/demo.ipynb>
    [`requirements.txt`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/requirements.txt>
+   
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
