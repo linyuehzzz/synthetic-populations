@@ -6,6 +6,7 @@ This repository contains the reproducible code of a synthetic data generator. We
 This repository includes the following files:
 - [`data.ipynb`]: Synthetic data generation
 - [`validation.ipynb`]: Data validation
+- [`demo.ipynb`]: A quick intro of small area estimation using the synthetic data
 
 ## Getting Started
 1. We use [Gurobi Optimizer] as our optimization solver in this implementation. Gurobi provides free, unlimited-use acedemic licenses at <https://www.gurobi.com/features/academic-named-user-license/>. Please follow the instructions to install a Gurobi Optimizer license on your device.
