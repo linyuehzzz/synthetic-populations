@@ -10,7 +10,7 @@ For the purpose of demonstration, we here show the use of tables from the [2010 
 ## Details
 This repository includes:
 - [`data.py`]: Convert published census tables to a matrix
-- [`model.py`]: Optimization with [Gurobi]
+- [`model.py`]: Optimization with [Gurobi Optimizer]
 - [`val.py`]: Internal and external validations
 - [`case.py`]: Case studies
 
@@ -26,6 +26,16 @@ pip install -r requirements.txt
 ```
 python franklin.py
 python guernsey.py
+```
+
+## Citation
+```
+@article{lin2022developing,
+  title={Developing synthetic individual-level population datasets: The case of contextualizing maps of privacy-preserving census data},
+  author={Lin, Yue and Xiao, Ningchuan},
+  journal={arXiv preprint arXiv:2206.04766},
+  year={2022}
+}
 ```
 
 [//]: # 
