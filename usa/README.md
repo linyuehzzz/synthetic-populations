@@ -1,11 +1,6 @@
 # Synthetic Population Data for Small Area Estimation in the United States
 
-This repository contains the reproducible code of a synthetic data generator for the United States. 
-
-For the purpose of demonstration, we here show the use of tables from the [2010 United States Census Summary File 1 (SF1)] to generate the SASM for Franklin and Guernsey Counties, Ohio, USA. The SASM include 1,163,414 individuals in 22,826 census blocks of Franklin County, and 40,087 individuals in 3,768 census blocks of Guernsey County. Each individual in the SASM has five attributes: housing type, voting age, ethnicity, race, and sex. The SASM and metadata can be found at:
-- [Franklin]
-- [Guernsey]
-- [Codebook]
+This repository contains the reproducible code of a synthetic data generator for the United States. The synthetic data can be found on Figshare at <https://doi.org/10.6084/m9.figshare.22056893>. We here show how the data is generated, validated, and used.
 
 ## Details
 This repository includes:
