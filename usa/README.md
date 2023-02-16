@@ -23,10 +23,18 @@ pip install -r requirements.txt
 │   │   ├── state_fips.txt
 │   │   ├── usa_pums.csv
 │   │   ├── US_blck_grp_2010_puma.csv
+│   │   ├── demo_data
+│   │   │   ├── OH_microdata.csv
+│   │   │   ├── tl_2010_39_bg10.shp
+│   │   │   ├── ...
+│   │   │   ├── WA_microdata.csv
+│   │   │   ├── tl_2010_53_bg10.shp
+│   │   │   ├── ...
 │   │   ├── microdata_by_state
 │   │   │   ├── ...
 │   ├── data.ipynb
 │   ├── validation.ipynb
+│   ├── demo.ipynb
 │   ├── requirements.txt
 ```
 
