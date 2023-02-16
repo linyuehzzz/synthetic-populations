@@ -1,6 +1,6 @@
 # Synthetic Population Data for Small Area Estimation in the United States
 
-This repository contains the reproducible code of a synthetic data generator for the United States. The synthetic data can be found on Figshare at <https://doi.org/10.6084/m9.figshare.22056893>. We here show how the data is generated, validated, and used.
+This repository contains the reproducible code of a synthetic data generator for the United States. We release synthetic population data for all 308,745,538 individual in 220,334 block groups in the United States. Each individual has five socio-demographic characteristics of housing type, age, sex, race, and Hispanic or Latino origin. The synthetic data can be found on Figshare at <https://doi.org/10.6084/m9.figshare.22056893>. We here show how the data is generated, validated, and used.
 
 ## Details
 This repository includes:
