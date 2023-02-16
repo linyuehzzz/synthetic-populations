@@ -27,13 +27,9 @@ python guernsey.py
    [Gurobi Optimizer]: <https://www.gurobi.com/>
    [2010 United States Census Summary File 1 (SF1)]: <https://www.census.gov/data/datasets/2010/dec/summary-file-1.html>
    
-   [`data.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/data.py>
-   [`model.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/model.py>
-   [`val.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/val.py>
-   [`case.py`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/lib/case.py>
+   [`data.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/data.ipynb>
+   [`validation.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/validation.ipynb>
    [`requirements.txt`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/requirements.txt>
-   [Franklin]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/data/franklin_microdata.csv>
-   [Guernsey]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/data/guernsey_microdata.csv>
    [Codebook]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/data/codebook.txt>
    
    [dill]: <https://github.com/joemccann/dillinger>
