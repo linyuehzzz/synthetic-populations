@@ -6,6 +6,7 @@ This repository contains the reproducible code of a synthetic data generator. We
 This repository includes the following files:
 - [`data.ipynb`]: Synthetic data generation
 - [`validation.ipynb`]: Data validation
+- [`demo.ipynb`]: A quick intro of small area estimation using the synthetic data
 
 ## Getting Started
 1. We use [Gurobi Optimizer] as our optimization solver in this implementation. Gurobi provides free, unlimited-use acedemic licenses at <https://www.gurobi.com/features/academic-named-user-license/>. Please follow the instructions to install a Gurobi Optimizer license on your device.
@@ -43,7 +44,9 @@ pip install -r requirements.txt
    [Gurobi Optimizer]: <https://www.gurobi.com/>
    [`data.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/data.ipynb>
    [`validation.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/validation.ipynb>
+   [`demo.ipynb`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/usa/demo.ipynb>
    [`requirements.txt`]: <https://github.com/linyuehzzz/synthetic-populations/blob/main/requirements.txt>
+   
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
    [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
